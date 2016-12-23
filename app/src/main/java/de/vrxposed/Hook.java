@@ -20,6 +20,10 @@ public class Hook implements IXposedHookLoadPackage {
             return;
 
         /*
+        * ANTI XPOSED HOOKS WONT WORK.
+        * */
+
+        /*
         * Block the killing of the VRBanking app
         * */
         findAndHookMethod("no.promon.shield.Report", lpparam.classLoader, "report", String.class, new XCMethodReplacement());
