@@ -1,5 +1,8 @@
 # VRXposed
-Disables the VRBank/Volksbank Xposed protection
+Disables the Xposed protection from the german banking app VRBank/Volksbank.
 
-The Volksbank app is protected by pronom (promon.co). 
-Hooking the pronom framework is quite difficult so i just hooked the implementation of it in the Volksbank app.
+This module was born out of necessity. I just need my banking app but removing xposed for my banking app is not a solution for me.
+
+### @Volksbank applcation developers
+
+I hope you don't mind this module, if you do, don't hesitate to contact me.
